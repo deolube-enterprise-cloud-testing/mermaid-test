@@ -15,6 +15,9 @@ sequenceDiagram
 
 
 ```mermaid
-flowchart TD;
-[this](https://github.com/deolube-enterprise-cloud-testing/mermaid-test)
+flowchart LR
+    A[Hard] -->|<a href='github.com'>Text<a>| B(Round)
+    B --> C{Decision}
+    C -->|One| D[Result 1]
+    C -->|Two| E[Result 2]
 ```
